@@ -34,6 +34,9 @@ main {
     grid-row: 3;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr))
+    grid-template-rows: repeat(2,1fr);
+    grid-template-areas:    "content content page-navigation"
+                            "content content sidebar";
 
     padding: 5px;
     border: dashed 2px #9caea9;
@@ -53,28 +56,30 @@ footer {
 }
 
 nav.page {
-    grid-column: 3 / 4;
-    grid-row-start: 1;
+    grid-area: page-navigation;
     background-color: #788585;
     color: #ccdad1;
     margin-top: 5px;
 }
 
-section {
-    grid-column: 1 / span 2;
-    background-color: #9caea9;
-    padding: 5px;
-    margin-top: 5px;
-}
-
 aside {
-    grid-column: 3 / 4;
+    grid-area: sidebar;
     margin-top: 5px;
     background-color: #f0eaea;
     padding: 5px;
     text-align: center;
     font-style: italic;
 }
+
+
+section.content {
+    grid-area: content;
+    background-color: #9caea9;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+
 
 article {
     background-color: #ccdad1;
