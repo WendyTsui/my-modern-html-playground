@@ -63,16 +63,16 @@ footer {
 }
 
 article {
+    background-color: #ccdad1;
     padding: 5px;
-    border: dotted 3px #9caea9;
     margin-top: 5px;
 }
 
 
 
 section {
+    background-color: #9caea9;
     padding: 5px;
-    border: dashed 3px #9a6d38;
     margin-top: 5px;
 }
 
