@@ -57,6 +57,7 @@ nav.page {
     grid-row-start: 1;
     background-color: #788585;
     color: #ccdad1;
+    margin-top: 5px;
 }
 
 section {
@@ -73,7 +74,6 @@ aside {
     padding: 5px;
     text-align: center;
     font-style: italic;
-    border: dashed 2px #9caea9;
 }
 
 article {
