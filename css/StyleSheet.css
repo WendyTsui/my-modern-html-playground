@@ -1,5 +1,6 @@
 html * {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    color: #38302e;
 }
 
 body {
@@ -80,15 +81,6 @@ article {
     padding: 5px;
     margin-top: 5px;
 }
-
-
-
-
-
-h1 {
-    color: #38302e;
-}
-
 
 
 nav.page ul li a {
