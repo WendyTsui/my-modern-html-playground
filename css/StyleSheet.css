@@ -33,7 +33,6 @@ main {
     grid-row: 3;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr))
-    grid-auto-row: dense;
 
     padding: 5px;
     border: dashed 2px #9caea9;
