@@ -79,3 +79,21 @@ ul li {
     font-size: 16px;
     font-weight: bold;
 }
+
+.left-align {
+    float: left;
+    margin: 0px 15px 15px 0px;
+}
+
+.right-align {
+    float: right;
+    margin: 0px 15px 15px 0px;
+}
+
+.floating-block::after {
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
