@@ -54,14 +54,14 @@ footer {
     border: dashed 2px #9caea9;
 }
 
-nav.page {
+aside.page-navigation {
     grid-area: page-navigation;
     background-color: #788585;
     color: #ccdad1;
     margin-top: 5px;
 }
 
-aside {
+aside.related-information {
     grid-area: sidebar;
     margin-top: 5px;
     background-color: #f0eaea;
@@ -127,7 +127,8 @@ nav.site ul li a {
 
 @media (min-width: 550px) {
     main {
-        grid-template-areas: "content content page-navigation" "content content sidebar";
+        grid-template-areas: "content content page-navigation" 
+                             "content content sidebar";
     }
     .collection {
         display: flex;
