@@ -18,7 +18,7 @@ header {
 
     padding: 0px;
     text-align: center;
-    border: dashed 2px #9caea9;
+    /*border: dashed 2px #9caea9;*/
 }
 
 nav.site {
@@ -38,7 +38,6 @@ main {
 
     background-color: #9caea9;
     padding: 5px;
-    border: dashed 2px #9caea9;
     margin-top: 5px;
 }
 
@@ -64,7 +63,7 @@ aside.page-navigation {
 aside.related-information {
     grid-area: sidebar;
     margin-top: 5px;
-    background-color: #f0eaea;
+    background-color: #788585;
     padding: 5px;
     text-align: center;
     font-style: italic;
@@ -75,6 +74,7 @@ section.content {
     grid-area: content;
     padding: 5px;
     margin-top: 5px;
+    background-color: #788585;
 }
 
 
