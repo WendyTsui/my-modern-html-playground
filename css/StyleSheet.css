@@ -124,14 +124,7 @@ nav.site ul li a {
 
 @media (min-width: 550px) {
     main {
-        grid-column: 1 / span 2;
-        grid-row: 3;
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)) grid-template-rows: repeat(2, 1fr);
-        grid-template-areas: "content content page-navigation" "content content sidebar";
-
-        padding: 5px;
-        border: dashed 2px #9caea9;
-        margin-top: 5px;
+        grid-template-areas: "content content page-navigation"
+                             "content content sidebar";
     }
 }
