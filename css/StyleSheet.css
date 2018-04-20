@@ -78,6 +78,9 @@ section.content {
 }
 
 
+.collection {
+    display: block;
+}
 
 article {
     background-color: #ccdad1;
@@ -124,7 +127,9 @@ nav.site ul li a {
 
 @media (min-width: 550px) {
     main {
-        grid-template-areas: "content content page-navigation"
-                             "content content sidebar";
+        grid-template-areas: "content content page-navigation" "content content sidebar";
+    }
+    .collection {
+        display: flex;
     }
 }
