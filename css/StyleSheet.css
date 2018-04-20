@@ -36,6 +36,7 @@ main {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)) grid-template-rows: repeat(3, 1fr);
     grid-template-areas: "page-navigation" "content" "sidebar";
 
+    background-color: #9caea9;
     padding: 5px;
     border: dashed 2px #9caea9;
     margin-top: 5px;
@@ -72,7 +73,6 @@ aside {
 
 section.content {
     grid-area: content;
-    background-color: #9caea9;
     padding: 5px;
     margin-top: 5px;
 }
