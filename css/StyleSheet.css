@@ -111,10 +111,6 @@ nav.site ul li a {
     margin: 0px 15px 15px 0px;
 }
 
-.right-align {
-    float: right;
-    margin: 0px 15px 15px 0px;
-}
 
 .floating-block::after {
     content: ".";
@@ -132,5 +128,9 @@ nav.site ul li a {
     }
     .collection {
         display: flex;
+    }
+    .right-align {
+        float: right;
+        margin: 0px 15px 15px 0px;
     }
 }
